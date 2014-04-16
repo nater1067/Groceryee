@@ -16,15 +16,17 @@
  */
 
 module.exports = {
-    
-  
 
 
   /**
    * Overrides for the settings in `config/controllers.js`
    * (specific to GroceryController)
    */
-  _config: {}
+  _config: {},
 
+
+  view: function(req, res) {
+//      return res.view();
+  }
   
 };
